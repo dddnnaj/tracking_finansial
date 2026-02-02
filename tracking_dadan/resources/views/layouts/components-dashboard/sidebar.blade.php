@@ -81,10 +81,11 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="pages-account-settings-account.html" class="menu-link">
-                        <div data-i18n="Account">Category</div>
-                    </a>
-                </li>
+                 <a href="{{ route('kategori-keuangan.index') }}" class="menu-link">
+                 <div data-i18n="Account">Kategori Keuangan</div>
+                 </a>
+            </li>
+
                 <li class="menu-item">
                     <a href="pages-account-settings-notifications.html" class="menu-link">
                         <div data-i18n="Notifications">Product</div>
